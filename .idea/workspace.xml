@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c44c4c9-28b8-4345-919b-f97768b99425" name="Changes" comment="commit creando los diferentes documentos .kt para las funciones/colores">
+    <list default="true" id="7c44c4c9-28b8-4345-919b-f97768b99425" name="Changes" comment="calculos hechos (se me ha olvidado hacer commits a medida que modificaba cosas)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/funcionsAigua.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/funcionsAigua.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/funcionsEntrada.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/funcionsEntrada.kt" afterDir="false" />
@@ -85,12 +86,21 @@
       <option name="project" value="LOCAL" />
       <updated>1704875179694</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="calculos hechos (se me ha olvidado hacer commits a medida que modificaba cosas)">
+      <option name="closed" value="true" />
+      <created>1704879102397</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704879102397</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit renombrando la branca con build.gradle.kts configurado para el dokka" />
     <MESSAGE value="commit creando los diferentes documentos .kt para las funciones/colores" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit creando los diferentes documentos .kt para las funciones/colores" />
+    <MESSAGE value="calculos hechos (se me ha olvidado hacer commits a medida que modificaba cosas)" />
+    <option name="LAST_COMMIT_MESSAGE" value="calculos hechos (se me ha olvidado hacer commits a medida que modificaba cosas)" />
   </component>
 </project>

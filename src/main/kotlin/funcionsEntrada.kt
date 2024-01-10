@@ -198,14 +198,12 @@ fun readInt(pMessageIn: String
  * @param pMessageErrorDT Data type error message to be shown to the user
  * @param pMessageErrorDV Data value error message to be shown to the user
  * @param pMin Min accepted value
- * @param pMax Max accepted value
  * @return outputValue Output value
  */
 fun readIntMaxMin(pMessageIn: String
             , pMessageErrorDT: String
             , pMessageErrorDV: String
             , pMin: Int
-            , pMax: Int
 ): Int{
 
     var outputValue: Int = 0
@@ -220,7 +218,7 @@ fun readIntMaxMin(pMessageIn: String
         }else{
             outputValue = scan.nextInt()
 
-            if (outputValue < pMin || outputValue > pMax){
+            if (outputValue < pMin){
                 println(YELLOW_BOLD_BRIGHT + "WARNING: " + pMessageErrorDV + RESET)
                 correctDataType = false
             }

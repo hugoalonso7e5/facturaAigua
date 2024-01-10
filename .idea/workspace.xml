@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c44c4c9-28b8-4345-919b-f97768b99425" name="Changes" comment="calculos hechos (se me ha olvidado hacer commits a medida que modificaba cosas)">
+    <list default="true" id="7c44c4c9-28b8-4345-919b-f97768b99425" name="Changes" comment="funciones arregladas y documentacion de las mismas.">
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/FuncionsAiguaKtTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/funcionsAigua.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/funcionsAigua.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/funcionsEntrada.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/funcionsEntrada.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/testing.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Class" />
+        <option value="Kotlin Data Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -42,10 +46,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Build facturaAigua.executor": "Run",
+    "Gradle.FuncionsAiguaKtTest.calcDescuento.executor": "Run",
+    "Gradle.FuncionsAiguaKtTest.calcPreuFinal.executor": "Run",
+    "Gradle.FuncionsAiguaKtTest.calcVariable.executor": "Run",
+    "Gradle.FuncionsAiguaKtTest.calcularDescompte.executor": "Run",
+    "Gradle.FuncionsAiguaKtTest.calcularPreuFinal.executor": "Run",
+    "Gradle.FuncionsAiguaKtTest.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/home/sjo/IdeaProjects/facturaAigua/src/main/kotlin/Main.kt",
@@ -54,6 +66,145 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.FuncionsAiguaKtTest.calcVariable">
+    <configuration name="FuncionsAiguaKtTest.calcDescuento" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;FuncionsAiguaKtTest.calcDescuento&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="FuncionsAiguaKtTest.calcPreuFinal" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;FuncionsAiguaKtTest.calcPreuFinal&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="FuncionsAiguaKtTest.calcVariable" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;FuncionsAiguaKtTest.calcVariable&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="FuncionsAiguaKtTest.calcularDescompte" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;FuncionsAiguaKtTest.calcularDescompte&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="FuncionsAiguaKtTest.calcularPreuFinal" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;FuncionsAiguaKtTest.calcularPreuFinal&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.FuncionsAiguaKtTest.calcVariable" />
+        <item itemvalue="Gradle.FuncionsAiguaKtTest.calcPreuFinal" />
+        <item itemvalue="Gradle.FuncionsAiguaKtTest.calcularPreuFinal" />
+        <item itemvalue="Gradle.FuncionsAiguaKtTest.calcDescuento" />
+        <item itemvalue="Gradle.FuncionsAiguaKtTest.calcularDescompte" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -94,13 +245,22 @@
       <option name="project" value="LOCAL" />
       <updated>1704879102397</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="funciones arregladas y documentacion de las mismas.">
+      <option name="closed" value="true" />
+      <created>1704883370652</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704883370652</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit renombrando la branca con build.gradle.kts configurado para el dokka" />
     <MESSAGE value="commit creando los diferentes documentos .kt para las funciones/colores" />
     <MESSAGE value="calculos hechos (se me ha olvidado hacer commits a medida que modificaba cosas)" />
-    <option name="LAST_COMMIT_MESSAGE" value="calculos hechos (se me ha olvidado hacer commits a medida que modificaba cosas)" />
+    <MESSAGE value="funciones arregladas y documentacion de las mismas." />
+    <option name="LAST_COMMIT_MESSAGE" value="funciones arregladas y documentacion de las mismas." />
   </component>
 </project>

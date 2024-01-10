@@ -7,7 +7,7 @@
  * @param boSocial Variable amb el boolean que indica si te o no un boSocial
  * @param numFamiliars Variable amb el numero de personas a la familia per, en cas de tenir beneficis
  * de familia mono/nombrosa, fer un descompte o un altre
- * @return Retorna el preu final j acalculat
+ * @return Retorna el preu final ja calculat
  */
 fun calcularPreuFinal(litros: Int, familia: Boolean, boSocial: Boolean, numFamiliars: Int): Double{
     var preu = 0.0
@@ -17,7 +17,7 @@ fun calcularPreuFinal(litros: Int, familia: Boolean, boSocial: Boolean, numFamil
 
     var descuento:Int = calcDescuento(familia,boSocial,numFamiliars)
 
-    var preuVariable:Double = calcVariable(litros, descuento)
+    var preuVariable:Double = calcularVariable(litros, descuento)
 
     preu+=(preuFixe+preuVariable)
 
@@ -54,7 +54,7 @@ fun calcDescuento(familia: Boolean, boSocial: Boolean, numFamiliars: Int): Int {
  * @param descuento El descompte es la variable calculada del descompte a partir dels bools.
  * @return el que retorna es la variable on s'ha calculat el preu total dels llitres i s'ha aplicat el descompte si hi ha.
  */
-fun calcVariable(litros: Int, descuento: Int): Double {
+fun calcularVariable(litros: Int, descuento: Int): Double {
     var preuRetorn = 0.0
     var preuLitre = 0.0
     var aDescomptar:Double

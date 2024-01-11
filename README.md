@@ -10,7 +10,7 @@ En aquest programa es calcula el que s'ha de pagar d'aigua a una factura "normal
 ---
 
 - [Fitxers del programa](#fitxers-del-programa)
-- [Codi en Execució]()
+- [Codi en Execució](#codi-en-execució)
 
 ---
 

@@ -26,13 +26,21 @@ En aquest programa es calcula el que s'ha de pagar d'aigua a una factura "normal
 ## Codi en Execució
 
 ### Presentació del programa:
+En un altre color i per poder distinguir-ho bé, hi han les instruccions del programa. Comunica a l'usuari per a que serveix i que ha de fer.
+
 ![execucio1.png](images%2Fexecucio1.png)
 
 ### Funcionalitat del programa:
+Imatge del programa en funcionament amb entrada de dades personalitzada. Com es pot veure, en tot moment indica a l'usuari quin tipus de dada ha d'escriure.
+
 ![execucio2.png](images%2Fexecucio2.png)
 
 ### Repeticio en bucle del programa:
+En aquest cas es pot veure que hi ha agut un error i que torna a demanar la mateixa entrada de dades
+
 ![execucio3.png](images%2Fexecucio3.png)
 
 ### Terminacio del programa
+Finalització del programa quan s'introdueix "no" a la pregunta de si vol calcular un altre factura.
+
 ![execucio4.png](images%2Fexecucio4.png)

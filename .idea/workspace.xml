@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c44c4c9-28b8-4345-919b-f97768b99425" name="Changes" comment="funciones arregladas y documentacion de las mismas.">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7c44c4c9-28b8-4345-919b-f97768b99425" name="Changes" comment="he agregado funciones de bool y readme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/funcionsEntrada.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/funcionsEntrada.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/FuncionsAiguaKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/FuncionsAiguaKtTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704883370652</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="he agregado funciones de bool y readme">
+      <option name="closed" value="true" />
+      <created>1704991357273</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704991357273</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -269,6 +272,7 @@
     <MESSAGE value="commit creando los diferentes documentos .kt para las funciones/colores" />
     <MESSAGE value="calculos hechos (se me ha olvidado hacer commits a medida que modificaba cosas)" />
     <MESSAGE value="funciones arregladas y documentacion de las mismas." />
-    <option name="LAST_COMMIT_MESSAGE" value="funciones arregladas y documentacion de las mismas." />
+    <MESSAGE value="he agregado funciones de bool y readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="he agregado funciones de bool y readme" />
   </component>
 </project>

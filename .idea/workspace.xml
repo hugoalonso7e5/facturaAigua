@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c44c4c9-28b8-4345-919b-f97768b99425" name="Changes" comment="funciones arregladas y documentacion de las mismas.">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/FuncionsAiguaKtTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/funcionsAigua.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/funcionsAigua.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/testing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/funcionsEntrada.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/funcionsEntrada.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/FuncionsAiguaKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/FuncionsAiguaKtTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +37,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectId" id="2akt5fNv64kG3uIHHdl5myNECfV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -43,29 +51,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build facturaAigua.executor": "Run",
-    "Gradle.FuncionsAiguaKtTest.calcDescuento.executor": "Run",
-    "Gradle.FuncionsAiguaKtTest.calcPreuFinal.executor": "Run",
-    "Gradle.FuncionsAiguaKtTest.calcVariable.executor": "Run",
-    "Gradle.FuncionsAiguaKtTest.calcularDescompte.executor": "Run",
-    "Gradle.FuncionsAiguaKtTest.calcularPreuFinal.executor": "Run",
-    "Gradle.FuncionsAiguaKtTest.executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/home/sjo/IdeaProjects/facturaAigua/src/main/kotlin/Main.kt",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build facturaAigua.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FuncionsAiguaKtTest.calcDescuento.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FuncionsAiguaKtTest.calcPreuFinal.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FuncionsAiguaKtTest.calcVariable.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FuncionsAiguaKtTest.calcularDescompte.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FuncionsAiguaKtTest.calcularPreuFinal.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FuncionsAiguaKtTest.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/sjo/IdeaProjects/facturaAigua/src/main/kotlin/Main.kt&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -74,7 +82,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FuncionsAiguaKtTest.calcVariable">
+  <component name="RunManager">
     <configuration name="FuncionsAiguaKtTest.calcDescuento" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />

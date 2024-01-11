@@ -298,3 +298,25 @@ fun readFloat(pMessageIn: String
 
     return outputValue
 }
+
+/**
+ * Aquesta funcio detecta quan s'introdueix 'Si' o 'No' i ho converteix en Boolean.
+ * @author hugoalonso7e5
+ * @return es retorna el valor boolean.
+ */
+fun funSiONo () : Boolean{
+    var opcioMenu :String
+    do {
+        var siONo = false
+        println("Escriu si o no")
+        opcioMenu= scan.nextLine()
+        opcioMenu=opcioMenu.uppercase()
+        if (opcioMenu=="SI"||opcioMenu=="NO"){
+            siONo = true
+        }else{
+            print(YELLOW_BOLD_BRIGHT + "WARNING: " + RESET)
+        }
+    }while(!siONo)
+    if(opcioMenu=="SI") return true
+    else return false
+}

@@ -16,12 +16,12 @@ class FuncionsAiguaKtTest {
         assertEquals(80,calcDescuento(familia = true, boSocial = true, numFamiliars = 6))
         assertEquals(40,calcDescuento(familia = true, boSocial = false, numFamiliars = 4))
         assertEquals(50,calcDescuento(familia = true, boSocial = false, numFamiliars = 5))
-        assertEquals(0,calcDescuento(familia = false, boSocial = false, numFamiliars = 5))
+        assertEquals(0,calcDescuento(familia = false, boSocial = false, numFamiliars = 0))
     }
 
     @Test
     fun calcVariable() {
         assertEquals(52.02, calcularVariable(289,40))
-        assertEquals(47.88, calcularVariable(228,30))
+        assertEquals(5.25, calcularVariable(175,80))
     }
 }

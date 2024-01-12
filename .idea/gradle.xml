@@ -9,7 +9,7 @@
         <option name="gradleJvm" value="corretto-20" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$" />
+            <option value="/dades/HugoAlonso/M03/UF2/facturaAigua" />
           </set>
         </option>
       </GradleProjectSettings>

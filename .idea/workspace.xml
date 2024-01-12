@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c44c4c9-28b8-4345-919b-f97768b99425" name="Changes" comment="readme">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="/dades/HugoAlonso/M03/UF2/facturaAigua/.idea/gradle.xml" beforeDir="false" afterPath="/dades/HugoAlonso/M03/UF2/facturaAigua/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="/dades/HugoAlonso/M03/UF2/facturaAigua/.idea/vcs.xml" beforeDir="false" afterPath="/dades/HugoAlonso/M03/UF2/facturaAigua/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="/dades/HugoAlonso/M03/UF2/facturaAigua/.idea/workspace.xml" beforeDir="false" afterPath="/dades/HugoAlonso/M03/UF2/facturaAigua/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="/dades/HugoAlonso/M03/UF2/facturaAigua/src/main/kotlin/funcionsEntrada.kt" beforeDir="false" afterPath="/dades/HugoAlonso/M03/UF2/facturaAigua/src/main/kotlin/funcionsEntrada.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,14 +35,14 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="/dades/HugoAlonso/M03/UF2/facturaAigua" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2akt5fNv64kG3uIHHdl5myNECfV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -210,7 +216,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-20.0.2-corretto-20.0.2.1-f644763e9732-05769f21" />
+        <option value="jdk-20.0.2-corretto-20.0.2.1-8336523bb0d9-0b85dddc" />
       </set>
     </attachedChunks>
   </component>

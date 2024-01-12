@@ -4,6 +4,7 @@ import RED_BACKGROUND_BRIGHT
 import RESET
 import YELLOW_BOLD_BRIGHT
 import java.util.*
+import kotlin.math.round
 
 val scan: Scanner = Scanner(System.`in`)
 
@@ -319,4 +320,14 @@ fun funSiONo () : Boolean{
     }while(!siONo)
     if(opcioMenu=="SI") return true
     else return false
+}
+
+/** Function that takes a Double as input and returns this value rounded to two decimal places
+ * @author Max Dron
+ * @since 2024/01/10
+ * @param number Number to round
+ * @return Rounded number
+ */
+fun roundToTwoDecimals(number: Double): Double {
+    return (round(number * 100) / 100)
 }

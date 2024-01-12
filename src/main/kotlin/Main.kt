@@ -24,7 +24,7 @@ fun main() {
         val boSocial: Boolean = funSiONo()
 
 
-        val preuFinal = calcularPreuFinal(litros,familia,boSocial,numFamiliars)
+        val preuFinal = roundToTwoDecimals(calcularPreuFinal(litros,familia,boSocial,numFamiliars))
 
         println("El preu a pagar surt a $BLUE_BOLD_BRIGHT $preuFinal$RESET")
 

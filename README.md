@@ -4,6 +4,9 @@
 En aquest programa es calcula el que s'ha de pagar d'aigua a una factura "normal". En aquest cas, es fan diferents preguntes a l'usuari per saber com calcular aquest preu final.
 
 ### Aquest codi s'ha programat amb *kotlin* 
+![Kotlin Badge](https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white)
+![Git Badge](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+![IntelliJ Badge](https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
 
 ## Taula de continguts
 
